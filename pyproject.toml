@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bip-gate"
+version = "0.1.0"
+description = "BIP-correctness harness for agentic Bitcoin development"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+authors = [{ name = "Mac G", email = "macgyver13@users.noreply.github.com" }]
+keywords = ["bitcoin", "bip", "psbt", "silent-payments", "agentic"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = [
+    "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+jev = ["typesafe-sdk>=0.1.0"]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+bip-gate = "bip_gate.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/macgyver13/bip-gate"
+Repository = "https://github.com/macgyver13/bip-gate"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
