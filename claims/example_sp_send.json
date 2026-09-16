@@ -1,0 +1,11 @@
+{
+  "summary": "PSBT sends to silent payment address",
+  "artifacts": {
+    "psbt_base64": "cHNidP8BAgQCAAAAAQQBAQEFAQEAAAEJQgIBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgA=",
+    "descriptor": null
+  },
+  "asserted_bips": [
+    375
+  ],
+  "claimed_complete": false
+}
