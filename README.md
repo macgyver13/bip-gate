@@ -31,7 +31,7 @@ Verdict JSON uses `pass | fail | need_human | not_implemented`.
 | Env | Behavior |
 |-----|----------|
 | `BIP_GATE_ROUTER=mock` (default) | Heuristic Choice/Noul/Score answers — no API key |
-| `BIP_GATE_ROUTER=jev` | Requires `typesafe-sdk` + `TYPESAFE_API_KEY` |
+| `BIP_GATE_ROUTER=jev` | Live TypeSafe Jev via `typesafe-sdk` + `TYPESAFE_API_KEY` (optional `TYPESAFE_DEFAULT_MODEL`, default `jev-latest`) |
 
 ## Initial lanes
 
