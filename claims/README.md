@@ -28,3 +28,25 @@ for f in claims/*.json; do echo "=== $f"; bip-gate check --claim "$f" | jq -c '{
 export BIP_GATE_ROUTER=jev TYPESAFE_API_KEY=…
 bip-gate check --claim claims/02_sp_send_complete_structural.json
 ```
+
+## Unsupported / non-PSBT scenarios (MuSig2, key agg, DLEQ)
+
+These assert BIP numbers **not** in the lane registry (`327`, `374`, `390`, `328`, …).
+Expected behavior today:
+
+- Mock/Jev `primary_lane` often `other` (or an SP/PSBT lane only if those BIPs are also asserted)
+- Unregistered BIP numbers do **not** invent a checker
+- If no registered lane is selected → `generic` / `need_human` and CONTRIBUTING pointer
+- If a registered BIP is also asserted (e.g. 352) → that stub lane may still fire; MuSig2 itself stays ungated
+
+| File | Scenario | Asserted BIPs |
+|------|----------|---------------|
+| `15_musig2_key_agg_bip327.json` | BIP327 key aggregation only | 327 |
+| `16_musig2_signing_session_bip327.json` | BIP327 signing session | 327 |
+| `17_musig_descriptor_bip390.json` | BIP390 `musig()` descriptor | 390 |
+| `18_dleq_proof_bip374.json` | BIP374 DLEQ (no PSBT) | 374 |
+| `19_key_agg_agent_overclaim.json` | Overconfident ship-it | 327, 340 |
+| `20_musig2_into_silent_payments.json` | MuSig2 spend key + SP descriptor | 327, 352, 392 |
+| `21_ask_gate_unknown_bip.json` | Explicit unknown-BIP ask | 328 |
+
+Adding a real lane later: follow [CONTRIBUTING.md](../CONTRIBUTING.md) (`musig_327`, `dleq_374`, `musig_desc_390`, …).

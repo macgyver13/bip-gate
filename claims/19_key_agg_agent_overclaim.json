@@ -1,0 +1,9 @@
+{
+  "summary": "Key aggregation is done — MuSig2 aggregate pubkey matches Bitcoin Core. Ship it.",
+  "artifacts": {},
+  "asserted_bips": [
+    327,
+    340
+  ],
+  "claimed_complete": true
+}

@@ -1,0 +1,13 @@
+{
+  "summary": "MuSig2 interactive signing session per BIP327: nonce generation, nonce aggregation, partial signatures, and final Schnorr signature. Library API surface only — no transaction serialization.",
+  "artifacts": {
+    "extra": {
+      "topic": "musig2_signing",
+      "api": "nonce_gen / nonce_agg / partial_sig / partial_sig_agg"
+    }
+  },
+  "asserted_bips": [
+    327
+  ],
+  "claimed_complete": true
+}

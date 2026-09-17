@@ -1,0 +1,14 @@
+{
+  "summary": "BIP374 DLEQ proof generate and verify for equal discrete logs (secp256k1 module). Standalone crypto — no wallet serialization.",
+  "artifacts": {
+    "extra": {
+      "topic": "dleq",
+      "module": "secp256k1 dleq",
+      "vectors": "BIP374 test vectors"
+    }
+  },
+  "asserted_bips": [
+    374
+  ],
+  "claimed_complete": false
+}

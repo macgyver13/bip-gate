@@ -1,0 +1,14 @@
+{
+  "summary": "Implement BIP327 MuSig2 key aggregation for two signers: aggregate individual x-only pubkeys into a single MuSig2 public key and verify against BIP327 test vectors. Pure secp256k1 crypto API only.",
+  "artifacts": {
+    "extra": {
+      "topic": "musig2_key_agg",
+      "signers": 2,
+      "vectors": "bip-0327 test vectors (key aggregation)"
+    }
+  },
+  "asserted_bips": [
+    327
+  ],
+  "claimed_complete": false
+}

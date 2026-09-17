@@ -1,0 +1,8 @@
+{
+  "summary": "Does this harness support BIP328 for agent review of key-aggregation related work? No artifacts attached.",
+  "artifacts": {},
+  "asserted_bips": [
+    328
+  ],
+  "claimed_complete": false
+}

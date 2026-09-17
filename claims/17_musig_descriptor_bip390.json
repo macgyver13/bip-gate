@@ -1,0 +1,10 @@
+{
+  "summary": "Add BIP390 musig() output descriptor support for a 2-of-2 MuSig2 wallet backup string. Descriptor-only review.",
+  "artifacts": {
+    "descriptor": "tr(musig(xpubAlice/0/0,xpubBob/0/0))"
+  },
+  "asserted_bips": [
+    390
+  ],
+  "claimed_complete": false
+}

@@ -1,0 +1,16 @@
+{
+  "summary": "Use a MuSig2 aggregate key as the BIP352 spend key when deriving a silent payment address; verify key aggregation plus SP address derivation. No send-path serialization claimed.",
+  "artifacts": {
+    "descriptor": "sp(spscan(xpubScan/1h/0),musig(xpubA/0h/0,xpubB/0h/0))",
+    "extra": {
+      "topic": "musig2_sp_spend_key",
+      "note": "352/392 may fire; 327 remains unregistered"
+    }
+  },
+  "asserted_bips": [
+    327,
+    352,
+    392
+  ],
+  "claimed_complete": false
+}
