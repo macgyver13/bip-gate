@@ -1,0 +1,11 @@
+{
+  "summary": "Draft PSBT sending to an sp1… silent payment address; outputs not finalized yet",
+  "artifacts": {
+    "psbt_base64": "cHNidP8BAgQCAAAAAQQBAQEFAQEAAAEJQgIBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgA=",
+    "descriptor": null
+  },
+  "asserted_bips": [
+    375
+  ],
+  "claimed_complete": false
+}

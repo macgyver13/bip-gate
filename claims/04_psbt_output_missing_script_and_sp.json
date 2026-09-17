@@ -1,0 +1,11 @@
+{
+  "summary": "PSBTv2 with an empty output map (invalid under BIP375 presence rules)",
+  "artifacts": {
+    "psbt_base64": "cHNidP8BAgQCAAAAAQQBAQEFAQEAAAA="
+  },
+  "asserted_bips": [
+    375,
+    370
+  ],
+  "claimed_complete": false
+}

@@ -1,0 +1,12 @@
+{
+  "summary": "Finalized silent payment send: SP_V0_INFO and computed OUT_SCRIPT both present",
+  "artifacts": {
+    "psbt_base64": "cHNidP8BAgQCAAAAAQQBAQEFAQEAAAEEIlEgEREREREREREREREREREREREREREREREREREREREREREBCUICAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQA",
+    "descriptor": null
+  },
+  "asserted_bips": [
+    375,
+    370
+  ],
+  "claimed_complete": true
+}

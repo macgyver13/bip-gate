@@ -1,0 +1,10 @@
+{
+  "summary": "PR claims this base64 blob is a PSBT sending to silent payments",
+  "artifacts": {
+    "psbt_base64": "aGVsbG8td29ybGQ="
+  },
+  "asserted_bips": [
+    375
+  ],
+  "claimed_complete": false
+}

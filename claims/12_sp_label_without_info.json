@@ -1,0 +1,10 @@
+{
+  "summary": "Output has SP label field but missing SP_V0_INFO",
+  "artifacts": {
+    "psbt_base64": "cHNidP8BAgQCAAAAAQQBAQEFAQEAAAEEAVEBCgQAAAAAAA=="
+  },
+  "asserted_bips": [
+    375
+  ],
+  "claimed_complete": false
+}

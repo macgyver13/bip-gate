@@ -1,0 +1,10 @@
+{
+  "summary": "Ordinary PSBTv2 paying a taproot address (not silent payments)",
+  "artifacts": {
+    "psbt_base64": "cHNidP8BAgQCAAAAAQQBAQEFAQEAAAEEIlEgEREREREREREREREREREREREREREREREREREREREREREA"
+  },
+  "asserted_bips": [
+    370
+  ],
+  "claimed_complete": true
+}

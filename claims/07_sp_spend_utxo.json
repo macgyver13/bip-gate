@@ -1,0 +1,14 @@
+{
+  "summary": "Spend a previously received silent payment UTXO via PSBT key-path (BIP376 tweaks)",
+  "artifacts": {
+    "psbt_base64": "cHNidP8BAgQCAAAAAQQBAQEFAQEAAAEEIlEgEREREREREREREREREREREREREREREREREREREREREREA",
+    "extra": {
+      "note": "Fixture has no PSBT_IN_SP_TWEAK yet — lane is stub; expect not_implemented/need_human"
+    }
+  },
+  "asserted_bips": [
+    376,
+    352
+  ],
+  "claimed_complete": false
+}

@@ -1,0 +1,10 @@
+{
+  "summary": "PSBT claims SP_V0_INFO but value is truncated",
+  "artifacts": {
+    "psbt_base64": "cHNidP8BAgQCAAAAAQQBAQEFAQEAAAEJCgAAAAAAAAAAAAAA"
+  },
+  "asserted_bips": [
+    375
+  ],
+  "claimed_complete": false
+}

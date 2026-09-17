@@ -1,0 +1,10 @@
+{
+  "summary": "Batch tx: one silent payment output still computing script, one ordinary P2TR change",
+  "artifacts": {
+    "psbt_base64": "cHNidP8BAgQCAAAAAQQBAQEFAQIAAAEJQgIHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwIICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAABBCJRIBERERERERERERERERERERERERERERERERERERERERERAA=="
+  },
+  "asserted_bips": [
+    375
+  ],
+  "claimed_complete": false
+}

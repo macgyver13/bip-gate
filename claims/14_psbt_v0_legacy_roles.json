@@ -1,0 +1,13 @@
+{
+  "summary": "Review PSBTv0 constructor/signer/finalizer role strip behavior",
+  "artifacts": {
+    "psbt_base64": "cHNidP8BAgQCAAAAAQQBAQEFAQEAAAEEIlEgEREREREREREREREREREREREREREREREREREREREREREA",
+    "extra": {
+      "intent": "Exercise BIP174 lane even though blob is v2-shaped for parser smoke"
+    }
+  },
+  "asserted_bips": [
+    174
+  ],
+  "claimed_complete": false
+}

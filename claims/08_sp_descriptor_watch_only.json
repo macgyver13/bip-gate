@@ -1,0 +1,12 @@
+{
+  "summary": "Import watch-only silent payment descriptor spscan(…) for a recovery wallet",
+  "artifacts": {
+    "descriptor": "sp(spscan([d34db33f/352'/0']xpubExampleScan/0),xpubExampleSpend)",
+    "psbt_base64": null
+  },
+  "asserted_bips": [
+    392,
+    352
+  ],
+  "claimed_complete": false
+}

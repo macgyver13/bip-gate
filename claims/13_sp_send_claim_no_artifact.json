@@ -1,0 +1,8 @@
+{
+  "summary": "We implemented BIP375 send support in rust-psbt",
+  "artifacts": {},
+  "asserted_bips": [
+    375
+  ],
+  "claimed_complete": false
+}

@@ -1,0 +1,10 @@
+{
+  "summary": "Agent claims SP send is complete and ready to broadcast",
+  "artifacts": {
+    "psbt_base64": "cHNidP8BAgQCAAAAAQQBAQEFAQEAAAEJQgIFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQIGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgA="
+  },
+  "asserted_bips": [
+    375
+  ],
+  "claimed_complete": true
+}
