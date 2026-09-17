@@ -20,6 +20,11 @@ Practical scenarios for evaluating `bip-gate` (mock or Jev).
 | `13_sp_send_claim_no_artifact.json` | Text-only claim | 375 | `need_human` |
 | `14_psbt_v0_legacy_roles.json` | BIP174 focus | 174 | stub |
 
+| `22_bip352_valid_address.json` | Valid BIP352 SP address | 352 | structural `pass` on `sp_352` |
+| `23_bip352_bad_address.json` | Bad Bech32m checksum | 352 | `fail` |
+| `24_bip352_address_plus_keys_match.json` | Address + matching scan/spend | 352 | structural `pass` |
+| `25_bip352_protocol_math_claim.json` | ECDH/output-derivation claim | 352 | `need_human` (crypto not wired) |
+
 ```bash
 # mock (default)
 for f in claims/*.json; do echo "=== $f"; bip-gate check --claim "$f" | jq -c '{file:"'$f'", verdict, lanes: .lanes_fired, primary: .router.answers.primary_lane.choice}'; done
