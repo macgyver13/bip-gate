@@ -1,0 +1,12 @@
+{
+  "summary": "BIP352 address with matching scan and spend compressed pubkeys",
+  "artifacts": {
+    "extra": {
+      "sp_address": "sp1qqgste7k9hx0qftg6qmwlkqtwuy6cycyavzmzj85c6qdfhjdpdjtdgqjuexzk6murw56suy3e0rd2cgqvycxttddwsvgxe2usfpxumr70xc9pkqwv",
+      "scan_pub_key": "0220bcfac5b99e04ad1a06ddfb016ee13582609d60b6291e98d01a9bc9a16c96d4",
+      "spend_pub_key": "025cc9856d6f8375350e123978daac200c260cb5b5ae83106cab90484dcd8fcf36"
+    }
+  },
+  "asserted_bips": [352],
+  "claimed_complete": false
+}

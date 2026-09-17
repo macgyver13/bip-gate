@@ -1,0 +1,10 @@
+{
+  "summary": "Receiver silent payment address from BIP352 send_and_receive_test_vectors.json",
+  "artifacts": {
+    "extra": {
+      "sp_address": "sp1qqgste7k9hx0qftg6qmwlkqtwuy6cycyavzmzj85c6qdfhjdpdjtdgqjuexzk6murw56suy3e0rd2cgqvycxttddwsvgxe2usfpxumr70xc9pkqwv"
+    }
+  },
+  "asserted_bips": [352],
+  "claimed_complete": false
+}
